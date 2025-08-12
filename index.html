@@ -1,30 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heading</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Fagma-Page</title>
 </head>
+
 <body>
-  <h1>HTML & CSS Sandbox - Headings & Paragraphs</h1>
-  <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <h4>Heading 4</h4>
-  <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
-  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laborum similique nesciunt? Quaerat molestiae fuga dolorem natus, illo at dicta provident! Dicta maiores eaque, vel ab voluptas id debitis delectus?</p>
+<header class="header"> 
+  <div class="container header-flex">
+
+        <img src="./image/Group 9.svg" alt="" class="logo" />
+      <div class="main-menu-items">
+        <ul class="main-menu-list">
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Contact-us">Contact-us</a>
+          </li>
+          <button class="btn">Get in one</button>
+      </div>
+      </div>
+    
+
+
+    <div class="hero-content">
+      <div class="hero-text ">
+        <div class="hero-1">
+          <img src="./image/Ornament 26 1.png" alt="">
+        </div>
+        <div class="hero-2">
+        <h1>
+          Ready to take your<br />
+          <span class="highlight">Business Growth</span><br />
+          to the next level?
+        </h1>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a massa lorem. Etiam elementum turpis a
+          urna gravida.Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit.
+        </p>
+        
+          <a href="#" class="btn-primary">Start your Free</a>
+    
+        </div>
+        
+        <section class="trusted-brands ">
+          <h2>Trusted by Leading Brands</h2>
+          <div class="brand-list">
+          <div class="brands " >
+            <div class="brand">
+              <img src="./image/6496714814b331014c589cab_client-04.png" alt="Greenish">
+              
+            </div>
+            <div class="brand">
+              <img src="./image/64967154860a8ebaefe07573_client-05 (1).png" alt="Automation">
+              
+            </div>
+            <div class="brand">
+              <img src="./image/6496714260a0e31c39d2f577_client-03.png" alt="Leafe">
+              
+            </div>
+            <div class="brand">
+              <img src="./image/654868347a4896c258e54657_client-02.png" alt="Mindfulness">
+          
+            </div>
+            </div>
+          </div>
+        </section>
+     
+
+
+      <div class="hero-image ">
+        <div class="circle-frame">
+          <img src="./image/Ellipse 10.png" alt="Team Meeting" />
+        </div>
+      </div>
+    </div>
+    
+
   
-  <h3>Subject</h3>
-  <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat ullam eaque id dolores ratione illo eos iusto consequuntur, magnam est quasi voluptas culpa et magni. Eum earum ab natus!</dd>
-  <important>This is very important</important><br><br>
-  <em>this is emphised symbol</em><br><br>
-  <mark>This is mark tag in HTML</mark><br><br>
-  <del>This is deleted tag</del><br><br>
-  <p>12<sup>th</sup></p><br><br>
-  <p>H<sub>2</sub>O</p><br><br>
-  <ins>Instance tag</ins><br><br>
+  <section class="services-section">
+    <p class="section-label">Our Services</p>
+    <h2>High-impact services for your business</h2>
+
+    <div class="services-grid">
+      <!-- Box 1 - Black Highlighted -->
+      <div class="service-box active">
+        <div class="icon">🖋️</div>
+        <h3>Content Marketing</h3>
+        <p>Our team creates engaging and attractive content that increases visibility for your audience, drives organic
+          traffic.</p>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="service-box">
+
+
+
+
+        <div class="icon">🎨</div>
+        <h3>Graphic Design</h3>
+        <p>Unlock the power of visual storytelling with our expert graphic design solutions.</p>
+      
+
+      </div>
+      
+
+      <!-- Box 3 -->
+      <div class="service-box">
+        <div class="icon">📈</div>
+        <h3>Digital Marketing</h3>
+        <p>Grow your brand’s online presence with our data-driven digital marketing strategies.</p>
+      </div>
+
+      <!-- Box 4 -->
+      <div class="service-box">
+        <div class="icon">💻</div>
+        <h3>Web Design</h3>
+        <p>We create visually appealing, user-friendly websites aligned with your brand’s goals.</p>
+      </div>
+
+      <!-- Box 5 -->
+      <div class="service-box">
+        <div class="icon">🔧</div>
+        <h3>IT Consulting</h3>
+        <p>We provide strategic IT guidance and implementation services.</p>
+      </div>
+
+      <!-- Box 6 -->
+      <div class="service-box">
+        <div class="icon">🏷️</div>
+        <h3>Brand Identity</h3>
+        <p>Create a unique and memorable brand experience that resonates with your audience.</p>
+        
+      </div>
+      
+    </div>
+  
+  </section>
+
+  <section class="about-section">
+    <div class="about-container">
+      <!-- Left: Stacked Images -->
+      <div class="about-images">
+        <div class="image bg1"></div>
+        <div class="image bg2"></div>
+        <div class="image main-img">
+          <img src="./image/Frame 146.png" alt="Team Photo" />
+        </div>
+      </div>
+
+      <!-- Right: Text Content -->
+      <div class="about-content">
+        <p class="section-label">About us</p>
+        <h2>The core mission behind all our work</h2>
+        <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit metus ut tortor purus tincidunt
+          sed lectus est et erat.</p>
+
+        <div class="stats">
+          <div class="stat-box">
+            <h3>330+</h3>
+            <p>Companies helped</p>
+          </div>
+          <div class="stat-box">
+            <h3>230+</h3>
+            <p>Revenue generated</p>
+          </div>
+        </div>
+
+        <a href="#" class="btn-primary">Start your Free Trial</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="process-section">
+    <p class="process-subtitle">Process</p>
+    <h2 class="process-title">Process that moves things forward</h2>
+
+    <div class="process-steps">
+
+      <!-- Step 1 -->
+      <div class="process-step">
+        <div class="process-icon"><img src="./image/Group 21.svg" alt=""></div>
+        <h3>Ideate</h3>
+        <p>The ideation process is a crucial phase in the design process where creative thinking and brainstorming
+          happens.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="process-step">
+        <div class="process-icon"><img src="./image/Group 27 (1).svg" alt=""></div>
+        <h3>Research</h3>
+        <p>Research is a critical component of the design process, helping designers understand the problem.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="process-step">
+        <div class="process-icon"><img src="./image/Group 39.svg" alt=""></div>
+        <h3>Create</h3>
+        <p>Designing a process involves several key steps to ensure clarity, efficiency, and successful implementation.
+        </p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="process-step">
+        <div class="process-icon"><img src="./image/Group.png" alt=""></div>
+        <h3>Testing</h3>
+        <p>Testing is a crucial phase in the design process to ensure the product or system meets requirements.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <h2 class="section-title">Recent Showcase</h2>
+
+    <div class="showcase-grid">
+
+      <!-- Item 1 -->
+      <div class="showcase-item">
+        <img src="image/Rectangle 20.png" alt="Web UI design">
+        <h3>Web UI design</h3>
+        <p>Creative UI Design</p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="showcase-item">
+        <img src="./image/Rectangle 21.png" alt="Digital Strategy">
+        <h3>To design Digital Strategy</h3>
+        <p>Social Media Marketing</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="showcase-item">
+        <img src="./image/Rectangle 22.png" alt="UI Design">
+        <h3>UI Design</h3>
+        <p>Creative background for logo</p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="showcase-item">
+        <img src="./image/Rectangle 23.png" alt="UI Design">
+        <h3>UI Design</h3>
+        <p>Creative Illustration</p>
+      </div>
+
+    </div>
+  </section>
+ <section class="test-section">
+    <img src="./image/Ellipse 16.png" alt="Loading The img" class="test-photo">
+
+    <blockquote class="test-quote">
+      “Be genuine in your assessment, and provide constructive feedback to benefit both potential customers and the
+      company providing the product or service.”
+    </blockquote>
+
+    <p class="test-author">
+      Jacqueline Miller<br>
+      <span>CEO of an edexpert</span>
+    </p>
+
+    <div class="test-nav">
+      <button class="test-prev"><img src="./image/Group 2 (1).svg" alt=""></button>
+      <button class="test-next"><img src="./image/Group 2.svg" alt=""></button>
+    </div>
+  </section> 
+
+
+
+ <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-col">
+        <h3 class="footer-logo"><img src="./image/Group 9.svg" alt=""></h3>
+        <p>We're a team of strategic creators and digital innovators, united focus in our pursuit of mastery and joyful.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home 2</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Portfolio Single</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Utility Pages</h4>
+        <ul>
+          <li><a href="#">Style Guide</a></li>
+          <li><a href="#">Instruction</a></li>
+          <li><a href="#">License</a></li>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">Error 404</a></li>
+          <li><a href="#">Password Protected</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Subscribe</h4>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email here">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-bottom">
+      <p>Designed by iconscita.com</p>
+      <p>+0 12 457 4578</p>
+      <p>119 Tanglewood Lane Gulfport, MS 39503</p>
+      <div class="footer-socials">
+        <a href="#"><img src="./image/Vector.svg" alt="Facebook"></a>
+        <a href="#"><img src="./image/Vector (1).svg" alt="Instagram"></a>
+        <a href="#"><img src="./image/Group 1000003541.svg" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </footer>
+</header>
 
 
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
